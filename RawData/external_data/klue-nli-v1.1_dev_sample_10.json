@@ -1,0 +1,122 @@
+[
+    {
+        "guid": "klue-nli-v1_dev_00000",
+        "source": "airbnb",
+        "premise": "흡연자분들은 발코니가 있는 방이면 발코니에서 흡연이 가능합니다.",
+        "hypothesis": "어떤 방에서도 흡연은 금지됩니다.",
+        "gold_label": "contradiction",
+        "author": "contradiction",
+        "label2": "contradiction",
+        "label3": "contradiction",
+        "label4": "contradiction",
+        "label5": "contradiction"
+    },
+    {    
+        "guid": "klue-nli-v1_dev_00001",
+        "source": "airbnb",
+        "premise": "10명이 함께 사용하기 불편함없이 만족했다.",
+        "hypothesis": "10명이 함께 사용하기 불편함이 많았다.",
+        "gold_label": "contradiction",
+        "author": "contradiction",
+        "label2": "contradiction",
+        "label3": "contradiction",
+        "label4": "contradiction",
+        "label5": "contradiction"
+    },
+    {
+        "guid": "klue-nli-v1_dev_00002",
+        "source": "airbnb",
+        "premise": "10명이 함께 사용하기 불편함없이 만족했다.",
+        "hypothesis": "성인 10명이 함께 사용하기 불편함없이 없었다.",
+        "gold_label": "neutral",
+        "author": "neutral",
+        "label2": "neutral",
+        "label3": "neutral",
+        "label4": "entailment",
+        "label5": "neutral"
+    },
+    {
+        "guid": "klue-nli-v1_dev_00003",
+        "source": "airbnb",
+        "premise": "10명이 함께 사용하기 불편함없이 만족했다.",
+        "hypothesis": "10명이 함께 사용하기에 만족스러웠다.",
+        "gold_label": "entailment",
+        "author": "entailment",
+        "label2": "entailment",
+        "label3": "entailment",
+        "label4": "entailment",
+        "label5": "entailment"
+    },
+    {
+        "guid": "klue-nli-v1_dev_00004",
+        "source": "airbnb",
+        "premise": "10층에 건물사람들만 이용하는 수영장과 썬베드들이 있구요.",
+        "hypothesis": "건물사람들은 수영장과 썬베드를 이용할 수 있습니다.",
+        "gold_label": "entailment",
+        "author": "entailment",
+        "label2": "entailment",
+        "label3": "entailment",
+        "label4": "entailment",
+        "label5": "entailment"
+    },
+    {
+        "guid": "klue-nli-v1_dev_00005",
+        "source": "airbnb",
+        "premise": "10층에 건물사람들만 이용하는 수영장과 썬베드들이 있구요.",
+        "hypothesis": "수영장과 썬베드는 9층에 있습니다.",
+        "gold_label": "contradiction",
+        "author": "contradiction",
+        "label2": "contradiction",
+        "label3": "contradiction",
+        "label4": "contradiction",
+        "label5": "contradiction"
+    },
+    {
+        "guid": "klue-nli-v1_dev_00006",
+        "source": "airbnb",
+        "premise": "10층에 건물사람들만 이용하는 수영장과 썬베드들이 있구요.",
+        "hypothesis": "수영장과 썬베드는 유료입니다.",
+        "gold_label": "neutral",
+        "author": "neutral",
+        "label2": "neutral",
+        "label3": "neutral",
+        "label4": "neutral",
+        "label5": "neutral"
+    },
+    {
+        "guid": "klue-nli-v1_dev_00007",
+        "source": "wikinews",
+        "premise": "11월 5일, 정부가 국무회의에서 통합진보당에 대한 해산심판 청구안을 통과시켰으며, 이애 따라 대한민국 법무부는 즉시 해산 청구서를 제출했다.",
+        "hypothesis": "법무부가 해산심판 청구안을 통과시킨 후 정부가 해산 청구서를 제출하였다.",
+        "gold_label": "contradiction",
+        "author": "contradiction",
+        "label2": "entailment",
+        "label3": "entailment",
+        "label4": "contradiction",
+        "label5": "contradiction"
+    },
+    {
+        "guid": "klue-nli-v1_dev_00008",
+        "source": "wikinews",
+        "premise": "11월 5일, 정부가 국무회의에서 통합진보당에 대한 해산심판 청구안을 통과시켰으며, 이애 따라 대한민국 법무부는 즉시 해산 청구서를 제출했다.",
+        "hypothesis": "법무부가 청구서를 제출한 3일 뒤에 통합진보당은 해산됐다.",
+        "gold_label": "neutral",
+        "author": "neutral",
+        "label2": "neutral",
+        "label3": "neutral",
+        "label4": "neutral",
+        "label5": "neutral"
+    },
+    {
+        "guid": "klue-nli-v1_dev_00009",
+        "source": "wikinews",
+        "premise": "11월 5일, 정부가 국무회의에서 통합진보당에 대한 해산심판 청구안을 통과시켰으며, 이애 따라 대한민국 법무부는 즉시 해산 청구서를 제출했다.",
+        "hypothesis": "정부는 통합진보당의 해산에 동의하였다.",
+        "gold_label": "entailment",
+        "author": "entailment",
+        "label2": "entailment",
+        "label3": "entailment",
+        "label4": "neutral",
+        "label5": "entailment"
+    }
+]
